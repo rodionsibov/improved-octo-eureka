@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input type="text" placeholder="Enter color code" v-model="colorCode" />
+    <input class="mt-1 p-2 rounded border" type="text" placeholder="Enter color code" v-model="colorCode" />
   </div>
 </template>
 
@@ -18,6 +18,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>

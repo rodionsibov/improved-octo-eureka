@@ -3,7 +3,7 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     counter: 0,
-    colorCode: 'green'
+    colorCode: ''
   },
   mutations: {
     increaseCounter(state, randomNumber) {
